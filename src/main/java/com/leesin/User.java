@@ -1,15 +1,15 @@
 package com.leesin;
 
 /**
- * @description:
- * @author: Leesin.Dong
- * @date: Created in 2020/3/30 7:58
- * @version: ${VERSION}
- * @modified By:
+ * 腾讯课堂搜索 咕泡学院
+ * 加群获取视频：608583947
+ * 风骚的Michael 老师
  */
 public class User {
+
     private String name;
-    private String age;
+
+    private int age;
 
     public String getName() {
         return name;
@@ -19,11 +19,11 @@ public class User {
         this.name = name;
     }
 
-    public String getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(String age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
@@ -31,7 +31,7 @@ public class User {
     public String toString() {
         return "User{" +
                 "name='" + name + '\'' +
-                ", age='" + age + '\'' +
+                ", age=" + age +
                 '}';
     }
 }

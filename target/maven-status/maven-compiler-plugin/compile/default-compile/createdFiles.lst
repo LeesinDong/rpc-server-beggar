@@ -1,5 +1,5 @@
 com\leesin\App.class
 com\leesin\RpcRequest.class
+com\leesin\IPaymentService.class
 com\leesin\User.class
 com\leesin\IHelloService.class
-com\leesin\IpaymentService.class
